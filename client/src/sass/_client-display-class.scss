@@ -1,0 +1,31 @@
+.ClientDisplayClasses {
+  h3 {
+    //  border: 1px solid red;
+    font-size: 1.6rem;
+  }
+  width: $main-width;
+  margin: 5rem auto;
+  .ClientDisplayClasses-wrapper {
+    margin-top: 3rem;
+    //  border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+#join {
+  //   border: 1px solid red;
+  align-items: center;
+  display: flex;
+  padding: 0 0.7rem;
+  border-radius: 50%;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background: $main-color;
+  color: $white;
+  cursor: pointer;
+}
+
+.added {
+  background: grey;
+}

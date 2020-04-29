@@ -1,0 +1,38 @@
+.Content {
+  //   border: 1px solid red;
+  width: 87%;
+  margin: 6rem auto;
+
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 0.8rem 0;
+  }
+}
+
+.AddClassesForm {
+  width: 80%;
+  height: 30vh;
+  display: flex;
+
+  align-items: center;
+  margin: 5rem auto;
+
+  .btn-add {
+    button {
+      padding: 0.7rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+      margin-top: 3rem;
+      background: $main-color;
+      color: $white;
+      text-transform: uppercase;
+    }
+  }
+}

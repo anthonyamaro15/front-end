@@ -1,0 +1,34 @@
+.Sharednavbar {
+  border-bottom: 1px solid grey;
+  .Sharednavbar-container {
+    //  border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: 0 auto;
+    height: 8vh;
+    align-items: center;
+    padding: 0 1rem;
+    text-transform: capitalize;
+    //  position: absolute;
+    //  top: 0;
+    //  left: 0;
+    //  right: 0;
+    z-index: 100;
+    color: $black;
+
+    nav {
+      a {
+        text-decoration: none;
+        //   border: 1px solid red;
+        color: $black;
+
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        &:first-child {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.DisplayInstructorClasses {
+  //   border: 1px solid red;
+  width: $main-width;
+  margin: 2rem auto 5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  //   padding: 0.5rem;
+  //   justify-content: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.InstructorCardClass {
+  width: 520px;
+  background: $white;
+  border-radius: 5px;
+  //   border: 1px solid rgb(196, 191, 191);
+  //   margin: 0 auto;
+  margin: 0 1rem 5rem;
+  .InstructorCardClass-img {
+    //  width: 550px;
+    img {
+      width: 100%;
+      // border: 1px solid red;
+      border-radius: 5px;
+      height: 320px;
+      object-fit: cover;
+    }
+  }
+
+  .InstructorCardClass-description {
+    padding: 0 0.5rem 1rem;
+
+    .Instructor-top-row {
+      //  border: 1px solid blue;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.8rem 0;
+      font-size: 1.1rem;
+
+      .name {
+        color: $black;
+        font-size: 1.2rem;
+      }
+
+      .price {
+        color: $main-color;
+        font-size: 1.2rem;
+      }
+    }
+
+    .duration {
+      color: grey;
+      margin-bottom: 0.5rem;
+    }
+
+    .bottom-row {
+      display: flex;
+      justify-content: space-between;
+      // border: 1px solid red;
+
+      .starts {
+        color: $black;
+        border: 1px solid $black;
+        display: inline-block;
+        padding: 0.8rem 1rem;
+        border-radius: 4px;
+      }
+
+      .icons {
+        font-size: 1.2rem;
+        display: flex;
+
+        align-items: center;
+
+        .edit {
+          cursor: pointer;
+          margin-right: 1rem;
+          //  border: 1px solid red;
+          padding: 0.2rem;
+        }
+        .del {
+          cursor: pointer;
+          //  border: 1px solid red;
+          padding: 0.2rem;
+        }
+      }
+    }
+  }
+}
